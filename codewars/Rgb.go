@@ -4,7 +4,7 @@ Note: Your answer should always be 6 characters long, the shorthand with 3 will 
 The following are examples of expected output values: */
 
 //https://www.codewars.com/kata/513e08acc600c94f01000001/train/go
-package git
+package main
 
 import (
 	"strconv"
