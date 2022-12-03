@@ -1,5 +1,7 @@
 package leetcode
 
+// LeetCode 278. First Bad Version
+
 var BV int = 4
 
 func isBadversion(n int) bool {
