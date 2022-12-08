@@ -8,5 +8,5 @@ import (
 
 func main() {
 	a := []int{-4, -1, 0, 3, 10}
-	fmt.Println(leetcode.SortedSquares(a))
+	fmt.Println(leetcode.Rotate(a, 1))
 }
