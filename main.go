@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	a := []int{1, 8, 51, 63, 74, 92}
-	fmt.Println(leetcode.SearchInsert(a, 0))
+	a := []int{-4, -1, 0, 3, 10}
+	fmt.Println(leetcode.SortedSquares(a))
 }
