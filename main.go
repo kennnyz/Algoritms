@@ -8,5 +8,6 @@ import (
 
 func main() {
 	a := []int{-4, -1, 0, 3, 10}
-	fmt.Println(leetcode.Rotate(a, 1))
+	leetcode.Rotate(a, 1)
+	fmt.Println(a)
 }
