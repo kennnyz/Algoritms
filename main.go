@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	a := []int{-4, -1, 0, 3, 10}
-	leetcode.Rotate(a, 1)
-	fmt.Println(a)
+	a := []int{0}
+	j := leetcode.PivotIndex(a)
+	fmt.Println(j)
 }
