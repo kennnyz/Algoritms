@@ -1,6 +1,6 @@
 package leetcode
 
-// 33. Find First and Last Position of Element in Sorted Array
+// 34. Find First and Last Position of Element in Sorted Array
 
 func searchRange(nums []int, target int) []int {
 	begin, end := findingBegin(nums, target), findingEnd(nums, target)
